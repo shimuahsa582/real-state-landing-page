@@ -1,0 +1,241 @@
+@media (min-width: 0px) and (max-width: 575.98px) { 
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: 0;
+}
+button.navbar-toggler i {
+    color: black;
+}
+  button.navbar-toggler:focus {
+    box-shadow: none;
+    border: none;
+  }
+  nav .navbar-nav .nav-link {
+    line-height: 14px;
+    text-align: center;
+  }
+  nav .navbar-nav .nav-item {
+    margin-left: 0;
+  }
+  nav .navbar-nav .nav-link.active::before {
+    top: 26px;
+    left: 150px;
+}
+#topPart .topBannerDetails {
+    margin-top: 162px;
+}
+#topPart .topBannerDetails .text p {
+    width: 313px;
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+    text-align: center;
+    margin: 24px 0px;
+}
+#topPart .topBannerDetails .text h2 {
+    font-size: 28px;
+    text-align: center;
+    width: 329px;
+    line-height: 140%;
+}
+#topPart .topInput {
+    font-size: 14px;
+    width: 304px;
+    padding: 17px 31px;
+}
+#topPart .searchBar {
+    width: auto;
+    margin: 0px 0px 20px;
+    display: inline-block;
+}
+.searchBar form img.searchImg {
+    top: 33%;
+    left: 10px;
+}
+#topPart button#topButton {
+    padding: 5px 6px;
+    right: 10px;
+    top: 12px;
+    font-weight: 500;
+    font-size: 14px !important;
+}
+#topPart .topCounter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-top: 20px;
+    width: 360px;
+}
+/* .counter_1 {
+    text-align: center;
+} */
+.counter_1 {
+    margin-top: 30px;
+}
+#topPart .topCounter .counter_1 h3 {
+    font-size: 28px;
+    line-height: 116%;
+    text-align: center;
+}
+#topPart .topCounter .counter_1 h3 span {
+    margin-left: -6px;
+}
+#topPart .topCounter .counter_1 p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 18px;
+}
+#property {
+    padding: 30px 0px;
+}
+.title h2 {
+    font-size: 24px;
+    text-align: center;
+    width: 300px;
+}
+#property .title h2 {
+    width: 329px;
+    text-align: center;
+}
+#property .propertyDetails {
+    margin-top: 35px;
+}
+#property .propertyDetails p {
+    font-size: 15px;
+    padding: 0px 0px 30px;
+}
+#residen {
+    padding: 26px 16px;
+}
+.paragraph {
+    width: 300px;
+    text-align: center;
+}
+#residen .residenLeftPart h2 {
+    margin: 0px 0px 35px;
+}
+#residen .residenLeftPart img.img_1 {
+    width: 287px;
+}
+#residen .residenLeftPart img.img_2 {
+    display: none;
+}
+#residen .residenRightPart {
+    padding: 32px 0px 47px;
+}
+#residen h2 {
+    width: 312px;
+    text-align: center;
+    line-height: 137%;
+}
+#residen .residenRightPart p {
+    margin: 20px 0 25px;
+    font-size: 15px;
+    line-height: 22px;
+    display: inline-block;
+    width: 300px;
+}
+#residen .residenRightButton {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: row;
+}
+#residen .residenRightButton .hubButton a {
+    padding: 8px 5px;
+    font-size: 12px;
+    line-height: 21px;
+    gap: 7px;
+    margin-right: 10px;
+}
+#residen .residenRightButton .exploreButton a {
+    padding: 8px 10px;
+    font-size: 12px;
+    line-height: 22px;
+}
+#berbagaiPart {
+    padding: 31px 0px 38px;
+}
+#berbagaiPart .barbagaiHeading {
+    margin: 8px 0px 30px;
+}
+#berbagaiPart .berbagai_01 .text h4 {
+    font-size: 22px;
+    line-height: 139%;
+    margin: 10px 0px 8px;
+}
+#berbagaiPart .berbagai_01 .text p {
+    font-size: 15px;
+    line-height: 24px;
+    width: 362px;
+}
+.berbagai_01 {
+    margin-bottom: 30px;
+}
+#contact {
+    padding: 35px 0px;
+}
+#contact h2.title {
+    margin-bottom: 30px;
+}
+#contact .contactRightPart {
+    margin-left: 0;
+}
+.callPart .icon i {
+    font-size: 22px;
+    margin-right: 12px;
+}
+.text h6 {
+    font-size: 15px;
+    line-height: 16px;
+}
+.text p {
+    font-size: 15px;
+}
+#contact .callPart a {
+    padding: 9px 40px;
+    font-size: 14px;
+    margin-top: 8px;
+}
+#contact .callPart {
+    margin-bottom: 20px;
+}
+.contactRightImages {
+    display: flex;
+    flex-direction: column;
+}
+#footer {
+    background: #203239;
+    padding: 20px 0px;
+}
+#footer .footerDetails {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#footer .footerIcon i {
+    margin-left: 14px;
+    font-size: 14px;
+}
+
+ }
+ /* small device ar jonno */
+ @media (min-width: 576px) and (max-width: 767px){
+
+ }
+ /* medium device ar jonno */
+ @media (min-width: 768px) and (max-width: 991px){
+
+ }
+ /* large device ar jonno */
+ @media (min-width: 992px) and (max-width: 1191px){
+
+ }
+ /* extra large device ar jonno */
+ @media (min-width: 1200px) and (max-width: 1400px){
+
+ }

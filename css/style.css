@@ -1,0 +1,497 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  font-family: "Poppins";
+  font-style: normal;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0;
+}
+p {
+  font-family: "Poppins";
+  font-style: normal;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins";
+  font-style: normal;
+}
+.container {
+  width: 1167px !important;
+}
+span{
+  font-family: "Poppins";
+  font-style: normal;
+}
+.title h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: #203239;
+}
+.paragraph {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ff7527;
+}
+/****************** common css end *************************/
+/***************** Top part start ***************************/
+#topPart {
+  width: 100%;
+  background: #eeedde;
+  padding: 50px 0px 60px;
+  position: relative;
+}
+nav{
+  position: absolute !important;
+  width: 100%;
+  top: 50px;
+  z-index: 999;
+}
+nav .navbar-nav .nav-item {
+  margin-left: 100px;
+}
+nav .navbar-nav .nav-item:first-child {
+  margin-left: 0;
+}
+nav .navbar-nav .nav-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #203239;
+  transition: .3s;
+}
+nav .navbar-nav .nav-link:hover{
+  color: #f7762e;
+}
+nav .navbar-nav .nav-link.active {
+  font-weight: 600;
+  position: relative;
+}
+nav .navbar-nav .nav-link.active::before {
+  content: "";
+  width: 20px;
+  position: absolute;
+  top: 33px;
+  left: 15px;
+  transform: translateY(-50%);
+  border-radius: 30px;
+  border: 3px solid #f7762e;
+  background: #f7762e;
+}
+#topPart .topBannerDetails {
+  /* margin: 100px 0px 60px; */
+  margin-top: 100px;
+}
+#topPart .topBannerDetails .text h2 {
+  width: 777px;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 150%;
+  color: #203239;
+}
+#topPart .topBannerDetails .text p {
+  width: 544px;
+  margin: 24px 0px 56px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(32, 50, 57, 0.55);
+}
+#topPart .searchBar {
+  display: flex;
+  width: 675px;
+  position: relative;
+  margin: 56px 0px;
+}
+.searchBar form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchBar form img.searchImg {
+  position: absolute;
+  top: 36%;
+  left: 24px;
+}
+#topPart .topInput {
+  width: 675px;
+  padding: 23px 53px;
+  border-radius: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(32, 50, 57, 0.55);
+  border: none;
+  display: inline-block;
+}
+#topPart .topInput:focus {
+  outline: 0;
+}
+#topPart button#topButton {
+  position: absolute;
+  padding: 13px 41px;
+  right: 20px;
+  top: 10px;
+  background: #203239;
+  box-shadow: 0px 6px 8px rgba(32, 50, 57, 0.25);
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  border: none;
+}
+#topPart .topCounter {
+  width: 590px;
+  display: flex;
+  justify-content: space-around;
+}
+#topPart .topCounter .counter_1 h3 {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 150%;
+  color: #203239;
+}
+#topPart .topCounter .counter_1 h3 span {
+  color: #ff7527;
+  margin-left: -19px;
+}
+#topPart .topCounter .counter_1 p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(32, 50, 57, 0.55);
+}
+#topPart .topBanner {
+  position: relative;
+  width: 1167px;
+}
+#topPart .image {
+  width: 401px;
+  position: absolute;
+  height: 522px;
+  top: 0px;
+  right: 0px;
+}
+/***************** top part end ************************/
+/********************** property part start ******************/
+#property {
+  width: 100%;
+  background: #ffffff;
+  padding: 100px 0px;
+}
+#property .title h2 {
+  width: 533px;
+  line-height: 150%;
+}
+#property .propertyDetails {
+  width: 300px;
+  padding: 20px 35px 20px 33px;
+  margin-top: 64px;
+  position: relative;
+}
+#property .propertyDetails.active {
+  border: 1px solid #eeedde;
+  border-radius: 10px;
+}
+#property .propertyDetails .text {
+  display: flex;
+  justify-content: space-between;
+}
+#property .propertyDetails .text::before {
+  content: "";
+  width: 8px;
+  height: 30px;
+  background: #ff7527;
+  border-radius: 5px;
+  border: 3px solid #ff7527;
+  position: absolute;
+  left: 0;
+  top: 18px;
+}
+#property .propertyDetails .text h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #203239;
+}
+#property .propertyDetails .text span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ff7527;
+}
+#property .propertyDetails p {
+  width: 232px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(32, 50, 57, 0.55);
+  padding: 8px 0px 48px;
+}
+.propertyBottom {
+  display: flex;
+  align-items: center;
+}
+.propertyBottom h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #203239;
+  margin-right: 14px;
+}
+.propertyBottom i {
+  color: #203239;
+}
+/******************** resident part start ***************/
+/************ residen h2 ar common css  ***************/
+#residen h2 {
+  line-height: 150%;
+  font-weight: 600;
+}
+#residen {
+  background: #eeedde;
+  padding: 68px 100px;
+}
+#residen .residenLeftPart h2 {
+  margin: 8px 0px 64px;
+}
+#residen .residenLeftPart {
+  position: relative;
+}
+#residen .residenLeftPart img.img_2 {
+  position: absolute;
+  left: 15%;
+  top: 35%;
+}
+#residen .residenRightPart {
+  padding: 218px 0px 298px;
+}
+#residen .residenRightPart p {
+  margin: 24px 0 48px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #203239;
+}
+#residen .residenRightButton {
+  display: flex;
+  justify-content: space-evenly;
+}
+#residen .residenRightButton .hubButton a {
+  border: 1px solid #203239;
+  border-radius: 10px;
+  padding: 13px 41px;
+  color: #203239;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+#residen .residenRightButton .exploreButton a {
+  padding: 13px 41px;
+  background: #203239;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+/************************* berbagaiPart start ************************/
+#berbagaiPart {
+  padding: 68px 99px 68px 100px;
+  background: #ffffff;
+}
+#berbagaiPart .barbagaiHeading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px 0px 68px;
+}
+.barbIcon i.left {
+  border: 1px solid #d6d5c7;
+  text-align: center;
+  padding: 7px 9px;
+  color: #ff7527;
+  background: #d6d5c7;
+  border-radius: 4px;
+  margin-right: 24px;
+}
+.barbIcon i.right {
+  border: 1px solid #d6d5c7;
+  text-align: center;
+  padding: 7px 9px;
+  color: #ff7527;
+  border-radius: 4px;
+}
+#berbagaiPart .berbagai_01 img {
+  border-radius: 10px;
+  display: block;
+}
+#berbagaiPart .berbagai_01 .text h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #203239;
+  margin: 16px 0px 8px;
+}
+#berbagaiPart .berbagai_01 .text p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #203239;
+}
+/****************** barbagai part end *************************/
+/*********************contact part start *********************/
+/***************** contact part ar common css start ************************/
+.text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #203239;
+}
+.text h6 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #203239;
+}
+/* contact part ar common css end*/
+#contact {
+  background: #eeedde;
+  padding: 48px 100px;
+}
+#contact h2.title {
+  margin-bottom: 63px;
+}
+#contact .contactLeftPart {
+  display: flex;
+  justify-content: space-between;
+}
+#contact .callPart {
+  width: 245px;
+  padding: 24px;
+  border: 1px solid rgba(255, 117, 39, 0.5);
+  border-radius: 10px;
+}
+#contact .callPart .call {
+  display: flex;
+  align-items: start;
+}
+/* #contact .callPart .call .text p{ 
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #203239;
+} */
+/* #contact .callPart .call .text h6{ 
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #203239;
+} */
+.callPart .icon i {
+  font-size: 32px;
+  margin-right: 16px;
+  margin-top: 10px;
+}
+#contact .callPart a {
+  padding: 13px 61px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ff7527;
+  background: rgba(255, 117, 39, 0.2);
+  border-radius: 10px;
+  margin: 24px 0px;
+}
+#contact .emailPart {
+  width: 308px;
+  padding: 24px;
+  border: 1px solid rgba(255, 117, 39, 0.5);
+  margin-right: 48px;
+}
+#contact .emailPart .email {
+  display: flex;
+  align-items: start;
+}
+#contact .emailPart a {
+  padding: 13px 55px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #eeedde;
+  background: rgba(255, 117, 39, 0.8);
+  border-radius: 10px;
+  margin: 24px 0px 24px 28px;
+}
+.emailPart .icon i {
+  font-size: 40px;
+  margin-right: 16px;
+}
+#contact .contactRightPart {
+  margin-left: 106px;
+}
+.contactRightImages {
+  display: flex;
+}
+.contactRightImages img.img_01 {
+  width: 156px;
+  margin-right: 32px;
+}
+.contactRightImages img.img_02 {
+  width: 212px;
+}
+/* *****************Contact part end***************/
+/*************** footer part start ********************/
+#footer {
+  background: #203239;
+  padding: 31px 100px;
+}
+#footer .footerDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#footer .footerIcon i {
+  margin-left: 66px;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+#footer .footerIcon i:hover {
+  color: #ff7527;
+}
