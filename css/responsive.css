@@ -1,14 +1,18 @@
-@media (min-width: 0px) and (max-width: 575.98px) { 
-html,body{
+@media (min-width: 0px) and (max-width: 575.98px) {
+  html,
+  body {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
     overflow-x: 0;
-}
-button.navbar-toggler i {
+  }
+  .container {
+    width: 1167px !important;
+  }
+  button.navbar-toggler i {
     color: black;
-}
+  }
   button.navbar-toggler:focus {
     box-shadow: none;
     border: none;
@@ -23,219 +27,780 @@ button.navbar-toggler i {
   nav .navbar-nav .nav-link.active::before {
     top: 26px;
     left: 150px;
-}
-#topPart .topBannerDetails {
+  }
+  #topPart {
+    padding: 50px 0px 0px;
+  }
+  #topPart .topBannerDetails {
     margin-top: 162px;
-}
-#topPart .topBannerDetails .text p {
+  }
+  #topPart .topBannerDetails .text h2 {
+    font-size: 28px;
+    text-align: center;
+    width: 329px;
+    line-height: 140%;
+  }
+  #topPart .topBannerDetails .text p {
     width: 313px;
     font-size: 14px;
     line-height: 20px;
     display: inline-block;
     text-align: center;
     margin: 24px 0px;
-}
-#topPart .topBannerDetails .text h2 {
-    font-size: 28px;
-    text-align: center;
-    width: 329px;
-    line-height: 140%;
-}
-#topPart .topInput {
+  }
+  #topPart .topInput {
     font-size: 14px;
     width: 304px;
     padding: 17px 31px;
-}
-#topPart .searchBar {
-    width: auto;
-    margin: 0px 0px 20px;
-    display: inline-block;
-}
-.searchBar form img.searchImg {
+  }
+  #topPart .searchBar {
+    display: none;
+  }
+  .searchBar form img.searchImg {
     top: 33%;
     left: 10px;
-}
-#topPart button#topButton {
+  }
+  #topPart button#topButton {
     padding: 5px 6px;
     right: 10px;
     top: 12px;
     font-weight: 500;
     font-size: 14px !important;
-}
-#topPart .topCounter {
+  }
+  #topPart .topCounter {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    margin-top: 20px;
-    width: 360px;
-}
-/* .counter_1 {
-    text-align: center;
-} */
-.counter_1 {
+    width: 320px;
+  }
+  .counter_1 {
     margin-top: 30px;
-}
-#topPart .topCounter .counter_1 h3 {
+  }
+  #topPart .topCounter .counter_1 h3 {
     font-size: 28px;
     line-height: 116%;
     text-align: center;
-}
-#topPart .topCounter .counter_1 h3 span {
+  }
+  #topPart .topCounter .counter_1 h3 span {
     margin-left: -6px;
-}
-#topPart .topCounter .counter_1 p {
+  }
+  #topPart .topCounter .counter_1 p {
     font-size: 14px;
     text-align: center;
     line-height: 18px;
-}
-#property {
+  }
+  #topPart .image {
+    position: relative;
+  }
+  #topPart .image img {
+    width: 260px !important;
+    position: relative;
+    height: 300px !important;
+    top: 27px;
+    right: 0px;
+    display: block;
+  }
+  #property {
     padding: 30px 0px;
-}
-.title h2 {
+  }
+  .title h2 {
     font-size: 24px;
     text-align: center;
     width: 300px;
-}
-#property .title h2 {
+  }
+  #property .title h2 {
     width: 329px;
     text-align: center;
-}
-#property .propertyDetails {
+  }
+  #property .propertyDetails {
     margin-top: 35px;
-}
-#property .propertyDetails p {
+  }
+  #property .propertyDetails p {
     font-size: 15px;
     padding: 0px 0px 30px;
-}
-#residen {
+  }
+  #residen {
     padding: 26px 16px;
-}
-.paragraph {
+  }
+  .paragraph {
     width: 300px;
     text-align: center;
-}
-#residen .residenLeftPart h2 {
+  }
+  #residen .residenLeftPart h2 {
     margin: 0px 0px 35px;
-}
-#residen .residenLeftPart img.img_1 {
+  }
+  #residen .residenLeftPart img.img_1 {
     width: 287px;
-}
-#residen .residenLeftPart img.img_2 {
+  }
+  #residen .residenLeftPart img.img_2 {
     display: none;
-}
-#residen .residenRightPart {
+  }
+  #residen .residenRightPart {
     padding: 32px 0px 47px;
-}
-#residen h2 {
+  }
+  #residen h2 {
     width: 312px;
     text-align: center;
     line-height: 137%;
-}
-#residen .residenRightPart p {
+  }
+  #residen .residenRightPart p {
     margin: 20px 0 25px;
     font-size: 15px;
     line-height: 22px;
     display: inline-block;
     width: 300px;
-}
-#residen .residenRightButton {
+  }
+  #residen .residenRightButton {
     display: flex;
     justify-content: start;
     align-items: start;
     flex-direction: row;
-}
-#residen .residenRightButton .hubButton a {
+  }
+  #residen .residenRightButton .hubButton a {
     padding: 8px 5px;
     font-size: 12px;
     line-height: 21px;
     gap: 7px;
     margin-right: 10px;
-}
-#residen .residenRightButton .exploreButton a {
+  }
+  #residen .residenRightButton .exploreButton a {
     padding: 8px 10px;
     font-size: 12px;
     line-height: 22px;
-}
-#berbagaiPart {
+  }
+  #berbagaiPart {
     padding: 31px 0px 38px;
-}
-#berbagaiPart .barbagaiHeading {
+  }
+  #berbagaiPart .barbagaiHeading {
     margin: 8px 0px 30px;
-}
-#berbagaiPart .berbagai_01 .text h4 {
+  }
+  #berbagaiPart .berbagai_01 .text h4 {
     font-size: 22px;
     line-height: 139%;
     margin: 10px 0px 8px;
-}
-#berbagaiPart .berbagai_01 .text p {
+  }
+  #berbagaiPart .berbagai_01 .text p {
     font-size: 15px;
     line-height: 24px;
     width: 362px;
-}
-.berbagai_01 {
+  }
+  .berbagai_01 {
     margin-bottom: 30px;
-}
-#contact {
+  }
+  #contact {
     padding: 35px 0px;
-}
-#contact h2.title {
+  }
+  #contact h2.title {
     margin-bottom: 30px;
-}
-#contact .contactRightPart {
+  }
+  #contact .contactLeftPart {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  #contact .callPart {
+    padding: 20px;
+  }
+  #contact .emailPart {
+    width: 281px;
+    padding: 24px;
+    border: 1px solid rgba(255, 117, 39, 0.5);
+    margin-right: 48px;
+  }
+  #contact .emailPart a {
+    padding: 10px 39px;
+  }
+  #contact .contactRightPart {
     margin-left: 0;
-}
-.callPart .icon i {
+  }
+  .callPart .icon i {
     font-size: 22px;
     margin-right: 12px;
-}
-.text h6 {
+  }
+  .text h6 {
     font-size: 15px;
     line-height: 16px;
-}
-.text p {
+  }
+  .text p {
     font-size: 15px;
-}
-#contact .callPart a {
+  }
+  #contact .callPart a {
     padding: 9px 40px;
     font-size: 14px;
     margin-top: 8px;
-}
-#contact .callPart {
+  }
+  #contact .callPart {
     margin-bottom: 20px;
-}
-.contactRightImages {
+  }
+  .contactRightImages {
     display: flex;
     flex-direction: column;
-}
-#footer {
+  }
+  #footer {
     background: #203239;
     padding: 20px 0px;
-}
-#footer .footerDetails {
+  }
+  #footer .footerDetails {
     display: flex;
     align-items: center;
     justify-content: start;
-}
-#footer .footerIcon i {
+  }
+  .footerIcon {
+    margin-left: 108px;
+  }
+  #footer .footerIcon i {
     margin-left: 14px;
     font-size: 14px;
+  }
 }
-
- }
- /* small device ar jonno */
- @media (min-width: 576px) and (max-width: 767px){
-
- }
- /* medium device ar jonno */
- @media (min-width: 768px) and (max-width: 991px){
-
- }
- /* large device ar jonno */
- @media (min-width: 992px) and (max-width: 1191px){
-
- }
- /* extra large device ar jonno */
- @media (min-width: 1200px) and (max-width: 1400px){
-
- }
+/* small device ar jonno */
+@media (min-width: 576px) and (max-width: 767px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: 0;
+  }
+  .container {
+    width: 1167px !important;
+  }
+  button.navbar-toggler i {
+    color: black;
+  }
+  button.navbar-toggler:focus {
+    box-shadow: none;
+    border: none;
+  }
+  nav .navbar-nav .nav-link {
+    line-height: 14px;
+    text-align: center;
+  }
+  nav .navbar-nav .nav-item {
+    margin-left: 0;
+  }
+  nav .navbar-nav .nav-link.active::before {
+    top: 26px;
+    left: 248px;
+  }
+  #topPart .topBannerDetails {
+    margin-top: 162px;
+  }
+  #topPart .topBannerDetails .text p {
+    width: 530px;
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+    text-align: center;
+    margin: 12px 0px;
+  }
+  #topPart .topBannerDetails .text h2 {
+    font-size: 35px;
+    text-align: center;
+    width: 563px;
+    line-height: 140%;
+  }
+  #topPart .topInput {
+    font-size: 14px;
+    width: 454px;
+    padding: 18px 40px;
+  }
+  #topPart .searchBar {
+    width: auto;
+    margin: 30px 0px 20px;
+    display: inline-block;
+  }
+  .searchBar form img.searchImg {
+    top: 31%;
+    left: 13px;
+  }
+  #topPart button#topButton {
+    padding: 6px 18px;
+    right: 12px;
+    top: 12px;
+    font-weight: 500;
+    font-size: 14px !important;
+  }
+  #topPart .topCounter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 515px;
+  }
+  #topPart .image {
+    position: relative;
+  }
+  #topPart .image img {
+    width: 350px !important;
+    position: relative;
+    height: 400px !important;
+    top: 27px;
+    display: block;
+    left: 183px;
+  }
+  .counter_1 {
+    margin-top: 30px;
+  }
+  #topPart .topCounter .counter_1 h3 {
+    font-size: 28px;
+    line-height: 116%;
+    text-align: center;
+  }
+  #topPart .topCounter .counter_1 h3 span {
+    margin-left: -6px;
+  }
+  #topPart .topCounter .counter_1 p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 18px;
+  }
+  #property {
+    padding: 30px 0px;
+  }
+  .title h2 {
+    font-size: 24px;
+    text-align: center;
+    width: 300px;
+  }
+  #property .title h2 {
+    width: 329px;
+    text-align: center;
+  }
+  #property .title h2 {
+    width: 509px;
+    text-align: center;
+  }
+  #property .propertyDetails p {
+    font-size: 15px;
+    padding: 0px 0px 30px;
+  }
+  #property .propertyDetails {
+    margin: 64px auto 0px;
+  }
+  #residen {
+    padding: 26px 16px;
+  }
+  .paragraph {
+    width: auto;
+    text-align: center;
+  }
+  #residen .residenLeftPart h2 {
+    margin: 0px auto 35px;
+  }
+  #berbagaiPart .berbagai_01 img {
+    border-radius: 10px;
+    display: block;
+    width: 400px;
+  }
+  #residen .residenLeftPart img.img_2 {
+    display: block;
+    width: 407px;
+  }
+  #residen .residenRightPart {
+    padding: 85px 0px 47px;
+  }
+  #residen h2 {
+    width: auto;
+    text-align: center;
+    line-height: 137%;
+  }
+  #residen .residenRightPart p {
+    margin: 20px 0 25px;
+    font-size: 15px;
+    line-height: 22px;
+    display: inline-block;
+    width: auto;
+  }
+  #residen .residenRightButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  #residen .residenRightButton .hubButton a {
+    padding: 10px 22px;
+    font-size: 14px;
+    line-height: 21px;
+    gap: 7px;
+    margin-right: 10px;
+  }
+  #residen .residenRightButton .exploreButton a {
+    padding: 10px 23px;
+    font-size: 13px;
+    line-height: 22px;
+  }
+  #berbagaiPart {
+    padding: 62px 0px 38px;
+  }
+  section#berbagaiPart p.paragraph {
+    text-align: start !important;
+  }
+  #berbagaiPart .barbagaiHeading {
+    margin: 8px 0px 30px;
+  }
+  #berbagaiPart .berbagai_01 .text h4 {
+    font-size: 22px;
+    line-height: 139%;
+    margin: 10px 0px 8px;
+  }
+  #berbagaiPart .berbagai_01 .text p {
+    font-size: 15px;
+    line-height: 24px;
+    width: 362px;
+  }
+  .berbagai_01 {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #contact {
+    padding: 35px 0px;
+  }
+  #contact h2.title {
+    margin-bottom: 30px;
+  }
+  #contact .contactRightPart {
+    margin-left: 0;
+  }
+  #contact .contactLeftPart {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+  }
+  #contact .emailPart a {
+    padding: 10px 43px;
+    font-size: 15px;
+    margin: 15px 0px 17px 20px;
+  }
+  #contact .emailPart {
+    width: 308px;
+    padding: 30px;
+    border: 1px solid rgba(255, 117, 39, 0.5);
+    margin-right: 48px;
+  }
+  .callPart .icon i {
+    font-size: 22px;
+    margin-right: 12px;
+  }
+  .text h6 {
+    font-size: 15px;
+    line-height: 16px;
+  }
+  .text p {
+    font-size: 15px;
+  }
+  #contact .callPart a {
+    padding: 9px 40px;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  #contact .callPart {
+    margin-bottom: 20px;
+  }
+  .contactRightImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  #footer {
+    background: #203239;
+    padding: 20px 0px;
+  }
+  #footer .footerDetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footerIcon {
+    margin-left: 108px;
+  }
+  #footer .footerIcon i {
+    margin-left: 14px;
+    font-size: 14px;
+  }
+}
+/* medium device ar jonno */
+@media (min-width: 768px) and (max-width: 991px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: 0;
+  }
+  .container {
+    width: 1167px !important;
+  }
+  button.navbar-toggler i {
+    color: black;
+  }
+  button.navbar-toggler:focus {
+    box-shadow: none;
+    border: none;
+  }
+  nav .navbar-nav .nav-link {
+    line-height: 14px;
+    text-align: center;
+  }
+  nav .navbar-nav .nav-item {
+    margin-left: 0;
+  }
+  nav .navbar-nav .nav-link.active::before {
+    top: 26px;
+    left: 248px;
+  }
+  #topPart .topBannerDetails {
+    margin-top: 162px;
+  }
+  #topPart .topBannerDetails .text p {
+    width: 646px;
+    font-size: 16px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    margin: 12px 35px;
+  }
+  #topPart .topBannerDetails .text h2 {
+    font-size: 42px;
+    text-align: center;
+    width: 672px;
+    line-height: 140%;
+  }
+  #topPart .topInput {
+    font-size: 14px;
+    width: 515px;
+    padding: 18px 40px;
+  }
+  #topPart .searchBar {
+    width: auto;
+    margin: 30px 0px 20px;
+    display: inline-block;
+  }
+  .searchBar form img.searchImg {
+    top: 31%;
+    left: 13px;
+  }
+  #topPart button#topButton {
+    padding: 7px 35px;
+    right: 12px;
+    top: 12px;
+    font-weight: 500;
+    font-size: 16px !important;
+  }
+  #topPart .topCounter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 575px;
+  }
+  .counter_1 {
+    margin-top: 30px;
+  }
+  #topPart .topCounter .counter_1 h3 {
+    font-size: 35px;
+    line-height: 121%;
+    text-align: start;
+  }
+  #topPart .topCounter .counter_1 h3 span {
+    margin-left: -6px;
+  }
+  #topPart .topCounter .counter_1 p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 18px;
+  }
+  #property {
+    padding: 60px 0px 30px;
+  }
+  .title h2 {
+    font-size: 33px;
+    text-align: center;
+    /* width: 300px; */
+  }
+  #property .title h2 {
+    width: 329px;
+    text-align: center;
+  }
+  #property .title h2 {
+    width: 692px;
+    text-align: center;
+  }
+  #property .propertyDetails p {
+    font-size: 15px;
+    padding: 0px 0px 30px;
+  }
+  #property .propertyDetails {
+    margin: 64px auto 0px;
+  }
+  /* ********** */
+  #property .propertyDetails {
+    width: 227px;
+    padding: 20px 17px 20px 17px;
+  }
+  #residen {
+    padding: 26px 16px;
+  }
+  .paragraph {
+    width: auto;
+    text-align: center;
+  }
+  #residen .residenLeftPart h2 {
+    margin: 0px auto 35px;
+  }
+  #berbagaiPart .berbagai_01 img {
+    border-radius: 10px;
+    display: block;
+    width: 400px;
+  }
+  #residen .residenLeftPart img.img_2 {
+    display: block;
+    width: 407px;
+  }
+  #residen .residenRightPart {
+    padding: 85px 0px 47px;
+  }
+  #residen h2 {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 137%;
+  }
+  #residen .residenRightPart p {
+    margin: 20px 121px 25px;
+    font-size: 15px;
+    line-height: 22px;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+  }
+  #residen .residenRightButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  #residen .residenRightButton .hubButton a {
+    padding: 10px 22px;
+    font-size: 14px;
+    line-height: 21px;
+    gap: 7px;
+    margin-right: 10px;
+  }
+  #residen .residenRightButton .exploreButton a {
+    padding: 10px 23px;
+    font-size: 13px;
+    line-height: 22px;
+  }
+  #berbagaiPart {
+    padding: 62px 0px 38px;
+  }
+  section#berbagaiPart p.paragraph {
+    text-align: start !important;
+  }
+  #berbagaiPart .barbagaiHeading {
+    margin: 8px 0px 30px;
+  }
+  #berbagaiPart .berbagai_01 .text h4 {
+    font-size: 22px;
+    line-height: 139%;
+    margin: 10px 0px 8px;
+  }
+  #berbagaiPart .berbagai_01 .text p {
+    font-size: 15px;
+    line-height: 24px;
+    width: 362px;
+  }
+  .berbagai_01 {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #contact {
+    padding: 45px 0px 35px;
+  }
+  #contact h2.title {
+    margin-bottom: 30px;
+  }
+  #contact .contactRightPart {
+    margin-left: 0;
+  }
+  #contact .contactLeftPart {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 20px;
+    margin-bottom: 30px;
+  }
+  #contact .emailPart a {
+    padding: 8px 35px;
+    font-size: 15px;
+    margin: 15px 0px 17px 20px;
+  }
+  #contact .emailPart {
+    width: 308px;
+    padding: 30px;
+    border: 1px solid rgba(255, 117, 39, 0.5);
+    margin-right: 48px;
+  }
+  .callPart .icon i {
+    font-size: 22px;
+    margin-right: 12px;
+  }
+  .text h6 {
+    font-size: 15px;
+    line-height: 16px;
+  }
+  .text p {
+    font-size: 15px;
+  }
+  #contact .callPart a {
+    padding: 9px 40px;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  #contact .callPart {
+    margin-bottom: 20px;
+  }
+  .contactRightImages {
+    display: flex;
+    flex-direction: row;
+  }
+  #footer {
+    background: #203239;
+    padding: 20px 0px;
+  }
+  #footer .footerDetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footerIcon {
+    margin-left: 108px;
+  }
+  #footer .footerIcon i {
+    margin-left: 14px;
+    font-size: 14px;
+  }
+}
+/*======================== large device ar jonno ==============================*/
+@media (min-width: 992px) and (max-width: 1191px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: 0;
+  }
+}
+/* extra large device ar jonno */
+@media (min-width: 1200px) and (max-width: 1400px) {
+}

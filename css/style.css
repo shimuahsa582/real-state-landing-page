@@ -229,7 +229,7 @@ nav .navbar-nav .nav-link.active::before {
   height: 30px;
   background: #ff7527;
   border-radius: 5px;
-  border: 3px solid #ff7527;
+  /* border: 3px solid #ff7527; */
   position: absolute;
   left: 0;
   top: 18px;
