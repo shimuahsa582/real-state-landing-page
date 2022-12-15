@@ -25,6 +25,7 @@
   nav .navbar-nav .nav-link.active::before {
     top: 26px;
     left: 150px;
+    display: none;
   }
   #topPart {
     padding: 50px 0px 0px;
@@ -281,6 +282,7 @@
   nav .navbar-nav .nav-link.active::before {
     top: 26px;
     left: 248px;
+    display:none;
   }
   #topPart {
     padding: 50px 0px 0px;
@@ -806,6 +808,7 @@
   }
   nav .navbar-nav .nav-link.active::before {
     top: 26px;
+    display: none;
   }
   #topPart .topBannerDetails {
     margin-top: 162px;
@@ -1008,6 +1011,7 @@
   }
   nav .navbar-nav .nav-link.active::before {
     top: 26px;
+    display: none;
   }
   #topPart .topBannerDetails {
     margin-top: 162px;

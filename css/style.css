@@ -55,7 +55,30 @@ span{
   line-height: 24px;
   color: #ff7527;
 }
+:root{
+  --all_main_color:#203239;
+  --all_font_family: "Poppins";
+  --all_sub_main_color:#203239;
+  --paragraph_color:#ff7527;
+
+}
 /****************** common css end *************************/
+.title h2{
+   color:var(--all_main_color);
+   font-family: var(--all_font_family);
+}
+p{
+  font-family: var(--all_font_family);
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: var(--all_font_family);
+}
+h4{
+  color: var(--all_sub_main_color);
+}
+.paragraph{
+  color:var(--paragraph_color);
+}
 /***************** Top part start ***************************/
 #topPart {
   width: 100%;
